@@ -1,0 +1,435 @@
+Thu Mar 12 11:48:58 PDT 2020
+Linux csslab2.uwb.edu 3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+uid=1002901(lucas01) gid=2121002901(lucas01) groups=2121002901(lucas01),605559(lab-access) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+*** compiling with clang++ to create an executable called myprogram
+clang version 7.0.1 (tags/RELEASE_701/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/rh/llvm-toolset-7.0/root/usr/bin
+*** running myprogram
+=====================================
+Start testStore1
+End testStore1
+=====================================
+Start factoryTest
+End factoryTest
+=====================================
+Start storeTest
+End storeTest
+=====================================
+Start hashTest
+End hashTest
+=====================================
+Start fileTest
+End fileTest
+=====================================
+Start inventoryDisplayTest
+Inventory:
+
+Comedy: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+F, 1, A, A, 1, 0
+
+Drama: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+D, 1, B, B, 1, 0
+D, 1, F, F, 1, 0
+
+Classic: 
+Genre, Stock, Director, Title, Major Actor Release Date, Borrowed
+C, 1, C, C, C 1 1111, 0
+C, 1, D, D, D 1 1111, 0
+
+End inventoryDisplayTest
+=====================================
+Start transactionTest
+End transactionTest
+=====================================
+Start customerTest
+
+Customer 1111 Mouse Mickey History:
+B 1111 D C 9 1938 Katherine Hepburn
+R 1111 D C 9 1938 Katherine Hepburn
+B 1111 D F Pirates of the Caribbean, 2003
+
+Customer 1111 Mouse Mickey History:
+B 1111 D C 9 1938 Katherine Hepburn
+R 1111 D C 9 1938 Katherine Hepburn
+B 1111 D F Pirates of the Caribbean, 2003
+End customerTest
+=====================================
+Start actionTest
+Inventory:
+
+Comedy: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+F, 10, Nora Ephron, You've Got Mail, 1998, 0
+
+Drama: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+D, 1, Steven Spielberg, Schindler's List, 1993, 0
+
+Classic: 
+Genre, Stock, Director, Title, Major Actor Release Date, Borrowed
+C, 9, George Cukor, Holiday, Katherine Hepburn 9 1938, 1
+
+Customer 1111 Lucas Bradley History:
+B 1111 D C 9 1938 Katherine Hepburn
+R 1111 D C 9 1938 Katherine Hepburn
+B 1111 D C 9 1938 Katherine Hepburn
+End actionTest
+=====================================
+Start testStoreFinal
+Inventory:
+
+Comedy: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+F, 10, Woody Allen, Annie Hall, 1977, 0
+F, 10, Joel Coen, Fargo, 1996, 0
+F, 10, John Landis, National Lampoon's Animal House, 1978, 0
+F, 10, Different Years, Pirates of the Caribbean, 2000, 0
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003, 0
+F, 10, Nora Ephron, Sleepless in Seattle, 1993, 0
+F, 10, Rob Reiner, When Harry Met Sally, 1989, 0
+F, 10, Nora Ephron, You've Got Mail, 1998, 0
+
+Drama: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+D, 10, Barry Levinson, Good Morning Vietnam, 1988, 0
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988, 0
+D, 10, Clint Eastwood, Unforgiven, 1992, 0
+D, 10, Gus Van Sant, Good Will Hunting, 2000, 0
+D, 10, Jonathan Demme, Silence of the Lambs, 1991, 0
+D, 10, Nancy Savoca, Dogfight, 1991, 0
+D, 10, Phillippe De Broca, King of Hearts, 1967, 0
+D, 10, Steven Spielberg, Schindler's List, 1993, 0
+
+Classic: 
+Genre, Stock, Director, Title, Major Actor Release Date, Borrowed
+C, 10, John Huston, The Maltese Falcon, Humphrey Bogart 10 1941, 0
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed 11 1946, 0
+C, 10, Frank Capra, It's a Wonderful Life, James Steward 11 1946, 0
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable 2 1939, 0
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh 2 1939, 0
+C, 10, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell 2 1971, 0
+C, 10, Hal Ashby, Harold and Maude, Ruth Gordon 3 1971, 0
+C, 10, George Cukor, The Philadelphia Story, Cary Grant 5 1940, 0
+C, 10, George Cukor, The Philadelphia Story, Katherine Hepburn 5 1940, 0
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland 7 1939, 0
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart 8 1942, 0
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman 8 1942, 0
+C, 10, George Cukor, Holiday, Cary Grant 9 1938, 0
+C, 10, George Cukor, Holiday, Katherine Hepburn 9 1938, 0
+
+Customer 1000 Mouse Minnie History:
+Customer 5000 Frog Freddie History:
+Customer 8000 Wacky Wally History:
+Inventory:
+
+Comedy: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+F, 9, Woody Allen, Annie Hall, 1977, 1
+F, 8, Joel Coen, Fargo, 1996, 2
+F, 9, John Landis, National Lampoon's Animal House, 1978, 1
+F, 10, Different Years, Pirates of the Caribbean, 2000, 0
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003, 0
+F, 9, Nora Ephron, Sleepless in Seattle, 1993, 1
+F, 9, Rob Reiner, When Harry Met Sally, 1989, 1
+F, 9, Nora Ephron, You've Got Mail, 1998, 1
+
+Drama: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+D, 10, Barry Levinson, Good Morning Vietnam, 1988, 0
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988, 0
+D, 10, Clint Eastwood, Unforgiven, 1992, 0
+D, 10, Gus Van Sant, Good Will Hunting, 2000, 0
+D, 10, Jonathan Demme, Silence of the Lambs, 1991, 0
+D, 10, Nancy Savoca, Dogfight, 1991, 0
+D, 10, Phillippe De Broca, King of Hearts, 1967, 0
+D, 10, Steven Spielberg, Schindler's List, 1993, 0
+
+Classic: 
+Genre, Stock, Director, Title, Major Actor Release Date, Borrowed
+C, 9, John Huston, The Maltese Falcon, Humphrey Bogart 10 1941, 1
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed 11 1946, 0
+C, 10, Frank Capra, It's a Wonderful Life, James Steward 11 1946, 0
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable 2 1939, 0
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh 2 1939, 0
+C, 8, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell 2 1971, 2
+C, 0, Hal Ashby, Harold and Maude, Ruth Gordon 3 1971, 10
+C, 9, George Cukor, The Philadelphia Story, Cary Grant 5 1940, 1
+C, 9, George Cukor, The Philadelphia Story, Katherine Hepburn 5 1940, 1
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland 7 1939, 0
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart 8 1942, 0
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman 8 1942, 0
+C, 9, George Cukor, Holiday, Cary Grant 9 1938, 1
+C, 10, George Cukor, Holiday, Katherine Hepburn 9 1938, 0
+
+Customer 1000 Mouse Minnie History:
+B 1000 D C 5 1940 Katherine Hepburn
+B 1000 D C 5 1940 Cary Grant
+B 1000 D C 3 1971 Ruth Gordon
+B 1000 Z F Fargo, 1996
+Customer 1111 Mouse Mickey History:
+B 1111 D C 2 1971 Malcolm McDowell
+B 1111 D C 3 1971 Ruth Gordon
+B 1111 D C 10 1941 Humphrey Bogart
+B 1111 D C 9 1938 Cary Grant
+Customer 5000 Frog Freddie History:
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+Customer 8000 Wacky Wally History:
+B 8000 D F You've Got Mail, 1998
+R 8000 D F You've Got Mail, 1998
+B 8000 D C 3 1971 Ruth Gordon
+B 8000 D C 3 1971 Ruth Gordon
+B 8000 D F National Lampoon's Animal House, 1978
+Customer 8888 Pig Porky History:
+B 8888 D F Annie Hall, 1977
+B 8888 D F When Harry Met Sally, 1989
+B 8888 D C 3 1971 Ruth Gordon
+End testStoreFinal
+=====================================
+Done!
+*** running clang-tidy using options from .clang-tidy
+LLVM (http://llvm.org/):
+  LLVM version 7.0.1
+  Optimized build.
+  Default target: x86_64-unknown-linux-gnu
+  Host CPU: broadwell
+10497 warnings generated.
+20992 warnings generated.
+32714 warnings generated.
+43209 warnings generated.
+53697 warnings generated.
+66221 warnings generated.
+76715 warnings generated.
+87203 warnings generated.
+101928 warnings generated.
+116726 warnings generated.
+127214 warnings generated.
+Suppressed 127214 warnings (127214 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+*** running clang-format format formatting suggestions
+*** formatting suggestions for classic.cpp
+*** formatting suggestions for comedy.cpp
+*** formatting suggestions for customer.cpp
+*** formatting suggestions for drama.cpp
+*** formatting suggestions for factory.cpp
+*** formatting suggestions for hashtable.cpp
+*** formatting suggestions for main.cpp
+*** formatting suggestions for movie.cpp
+*** formatting suggestions for store.cpp
+*** formatting suggestions for store_test.cpp
+*** formatting suggestions for transaction.cpp
+*** running valgrind to detect memory leaks
+==8539== Memcheck, a memory error detector
+==8539== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==8539== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==8539== Command: ./myprogram
+==8539== 
+=====================================
+Start testStore1
+End testStore1
+=====================================
+Start factoryTest
+End factoryTest
+=====================================
+Start storeTest
+End storeTest
+=====================================
+Start hashTest
+End hashTest
+=====================================
+Start fileTest
+End fileTest
+=====================================
+Start inventoryDisplayTest
+Inventory:
+
+Comedy: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+F, 1, A, A, 1, 0
+
+Drama: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+D, 1, B, B, 1, 0
+D, 1, F, F, 1, 0
+
+Classic: 
+Genre, Stock, Director, Title, Major Actor Release Date, Borrowed
+C, 1, C, C, C 1 1111, 0
+C, 1, D, D, D 1 1111, 0
+
+End inventoryDisplayTest
+=====================================
+Start transactionTest
+End transactionTest
+=====================================
+Start customerTest
+
+Customer 1111 Mouse Mickey History:
+B 1111 D C 9 1938 Katherine Hepburn
+R 1111 D C 9 1938 Katherine Hepburn
+B 1111 D F Pirates of the Caribbean, 2003
+
+Customer 1111 Mouse Mickey History:
+B 1111 D C 9 1938 Katherine Hepburn
+R 1111 D C 9 1938 Katherine Hepburn
+B 1111 D F Pirates of the Caribbean, 2003
+End customerTest
+=====================================
+Start actionTest
+Inventory:
+
+Comedy: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+F, 10, Nora Ephron, You've Got Mail, 1998, 0
+
+Drama: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+D, 1, Steven Spielberg, Schindler's List, 1993, 0
+
+Classic: 
+Genre, Stock, Director, Title, Major Actor Release Date, Borrowed
+C, 9, George Cukor, Holiday, Katherine Hepburn 9 1938, 1
+
+Customer 1111 Lucas Bradley History:
+B 1111 D C 9 1938 Katherine Hepburn
+R 1111 D C 9 1938 Katherine Hepburn
+B 1111 D C 9 1938 Katherine Hepburn
+End actionTest
+=====================================
+Start testStoreFinal
+Inventory:
+
+Comedy: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+F, 10, Woody Allen, Annie Hall, 1977, 0
+F, 10, Joel Coen, Fargo, 1996, 0
+F, 10, John Landis, National Lampoon's Animal House, 1978, 0
+F, 10, Different Years, Pirates of the Caribbean, 2000, 0
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003, 0
+F, 10, Nora Ephron, Sleepless in Seattle, 1993, 0
+F, 10, Rob Reiner, When Harry Met Sally, 1989, 0
+F, 10, Nora Ephron, You've Got Mail, 1998, 0
+
+Drama: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+D, 10, Barry Levinson, Good Morning Vietnam, 1988, 0
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988, 0
+D, 10, Clint Eastwood, Unforgiven, 1992, 0
+D, 10, Gus Van Sant, Good Will Hunting, 2000, 0
+D, 10, Jonathan Demme, Silence of the Lambs, 1991, 0
+D, 10, Nancy Savoca, Dogfight, 1991, 0
+D, 10, Phillippe De Broca, King of Hearts, 1967, 0
+D, 10, Steven Spielberg, Schindler's List, 1993, 0
+
+Classic: 
+Genre, Stock, Director, Title, Major Actor Release Date, Borrowed
+C, 10, John Huston, The Maltese Falcon, Humphrey Bogart 10 1941, 0
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed 11 1946, 0
+C, 10, Frank Capra, It's a Wonderful Life, James Steward 11 1946, 0
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable 2 1939, 0
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh 2 1939, 0
+C, 10, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell 2 1971, 0
+C, 10, Hal Ashby, Harold and Maude, Ruth Gordon 3 1971, 0
+C, 10, George Cukor, The Philadelphia Story, Cary Grant 5 1940, 0
+C, 10, George Cukor, The Philadelphia Story, Katherine Hepburn 5 1940, 0
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland 7 1939, 0
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart 8 1942, 0
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman 8 1942, 0
+C, 10, George Cukor, Holiday, Cary Grant 9 1938, 0
+C, 10, George Cukor, Holiday, Katherine Hepburn 9 1938, 0
+
+Customer 1000 Mouse Minnie History:
+Customer 5000 Frog Freddie History:
+Customer 8000 Wacky Wally History:
+Inventory:
+
+Comedy: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+F, 9, Woody Allen, Annie Hall, 1977, 1
+F, 8, Joel Coen, Fargo, 1996, 2
+F, 9, John Landis, National Lampoon's Animal House, 1978, 1
+F, 10, Different Years, Pirates of the Caribbean, 2000, 0
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003, 0
+F, 9, Nora Ephron, Sleepless in Seattle, 1993, 1
+F, 9, Rob Reiner, When Harry Met Sally, 1989, 1
+F, 9, Nora Ephron, You've Got Mail, 1998, 1
+
+Drama: 
+Genre, Stock, Director, Title, Year of Release, Borrowed
+D, 10, Barry Levinson, Good Morning Vietnam, 1988, 0
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988, 0
+D, 10, Clint Eastwood, Unforgiven, 1992, 0
+D, 10, Gus Van Sant, Good Will Hunting, 2000, 0
+D, 10, Jonathan Demme, Silence of the Lambs, 1991, 0
+D, 10, Nancy Savoca, Dogfight, 1991, 0
+D, 10, Phillippe De Broca, King of Hearts, 1967, 0
+D, 10, Steven Spielberg, Schindler's List, 1993, 0
+
+Classic: 
+Genre, Stock, Director, Title, Major Actor Release Date, Borrowed
+C, 9, John Huston, The Maltese Falcon, Humphrey Bogart 10 1941, 1
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed 11 1946, 0
+C, 10, Frank Capra, It's a Wonderful Life, James Steward 11 1946, 0
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable 2 1939, 0
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh 2 1939, 0
+C, 8, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell 2 1971, 2
+C, 0, Hal Ashby, Harold and Maude, Ruth Gordon 3 1971, 10
+C, 9, George Cukor, The Philadelphia Story, Cary Grant 5 1940, 1
+C, 9, George Cukor, The Philadelphia Story, Katherine Hepburn 5 1940, 1
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland 7 1939, 0
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart 8 1942, 0
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman 8 1942, 0
+C, 9, George Cukor, Holiday, Cary Grant 9 1938, 1
+C, 10, George Cukor, Holiday, Katherine Hepburn 9 1938, 0
+
+Customer 1000 Mouse Minnie History:
+B 1000 D C 5 1940 Katherine Hepburn
+B 1000 D C 5 1940 Cary Grant
+B 1000 D C 3 1971 Ruth Gordon
+B 1000 Z F Fargo, 1996
+Customer 1111 Mouse Mickey History:
+B 1111 D C 2 1971 Malcolm McDowell
+B 1111 D C 3 1971 Ruth Gordon
+B 1111 D C 10 1941 Humphrey Bogart
+B 1111 D C 9 1938 Cary Grant
+Customer 5000 Frog Freddie History:
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+Customer 8000 Wacky Wally History:
+B 8000 D F You've Got Mail, 1998
+R 8000 D F You've Got Mail, 1998
+B 8000 D C 3 1971 Ruth Gordon
+B 8000 D C 3 1971 Ruth Gordon
+B 8000 D F National Lampoon's Animal House, 1978
+Customer 8888 Pig Porky History:
+B 8888 D F Annie Hall, 1977
+B 8888 D F When Harry Met Sally, 1989
+B 8888 D C 3 1971 Ruth Gordon
+End testStoreFinal
+=====================================
+Done!
+==8539== 
+==8539== HEAP SUMMARY:
+==8539==     in use at exit: 0 bytes in 0 blocks
+==8539==   total heap usage: 2,994 allocs, 2,994 frees, 181,466 bytes allocated
+==8539== 
+==8539== All heap blocks were freed -- no leaks are possible
+==8539== 
+==8539== For counts of detected and suppressed errors, rerun with: -v
+==8539== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+*** cleaning up, deleting myprogram
+Thu Mar 12 11:49:33 PDT 2020
